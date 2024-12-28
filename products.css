@@ -133,7 +133,7 @@ h4 {
     font-size: 25px;
 }
 
-@media (width<900px) {
+@media (width < 900px) {
     html,
     body {
         max-width: 100%;
@@ -158,4 +158,12 @@ h4 {
     #section4 img {
         max-height: 200px;
     }
+    .charts {
+        align-items: center;
+        /* max-width: 400px; */
+    }
+    /* canvas {
+        max-width: 100%;
+        aspect-ratio: auto 300 / 150;
+    } */
 }
