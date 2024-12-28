@@ -147,6 +147,11 @@ h4 {
 }
 
 @media (width < 900px) {
+    html,
+    body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
     .product-section {
         flex-direction: column;
         justify-content: center;

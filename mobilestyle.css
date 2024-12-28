@@ -1,4 +1,9 @@
 @media (width < 900px) {
+    html,
+    body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
     .banner {
         /* visibility: hidden; */
         /* font-size: 5px; */
