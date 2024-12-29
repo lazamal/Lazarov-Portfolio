@@ -170,4 +170,7 @@ h4 {
         display: flex;
         align-items: center;
     }
+    .KPI-section p {
+        font-size: 10px;
+    }
 }
