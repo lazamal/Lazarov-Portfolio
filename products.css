@@ -144,9 +144,6 @@ h4 {
         /* align-items: center;  */
     }
 
-    .products-container {
-        /* margin-left: auto; */
-    }
     #product-intro {
         display: flex;
         flex-direction: column;
@@ -200,12 +197,19 @@ h4 {
         text-align: center;
     }
     .KPI-section p {
-        font-size: 20px;
+        font-size: 15px;
         margin-bottom: 10px;
         text-align: left;
     }
     .collaboration {
         font-size: 10px;
         text-align: left;
+    }
+    footer {
+        text-align: center;
+        margin: auto;
+    }
+    footer p {
+        margin-bottom: 10px;
     }
 }
