@@ -145,13 +145,7 @@ h4 {
     }
 
     .products-container {
-        max-width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        text-wrap: flex;
-        flex-wrap: wrap;
-        margin: 10px 0px 10px 0px;
+        /* margin-left: auto; */
     }
     #product-intro {
         display: flex;
@@ -182,6 +176,8 @@ h4 {
 
     .product-section {
         flex-direction: column;
+        width: 140%;
+        margin-left: -60px;
     }
     .section-text {
         /* max-width: 100vh; */
@@ -194,7 +190,7 @@ h4 {
     }
 
     #section4 img {
-        max-height: 250px;
+        max-height: 200px;
     }
     .charts {
         align-items: center;
@@ -208,12 +204,8 @@ h4 {
         margin-bottom: 10px;
         text-align: left;
     }
-    #section3 {
-        width: 100%;
+    .collaboration {
+        font-size: 10px;
+        text-align: left;
     }
-
-    /* canvas {
-        max-width: 100%;
-        aspect-ratio: auto 300 / 150;
-    } */
 }
