@@ -7,11 +7,11 @@ h1 {
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 35px;
 }
 
 h4 {
-    font-size: 25px;
+    font-size: 30px;
 }
 
 .products-container {
@@ -145,10 +145,15 @@ h4 {
     }
 
     #product-intro {
-        display: flex;
+        /* display: table-caption; */
         flex-direction: column;
-        align-items: center;
+        align-items: space-around;
     }
+    #product-intro h2 {
+        width: 150%;
+        margin-left: -70px;
+    }
+
     h1 {
         font-size: 30px;
     }
@@ -167,8 +172,11 @@ h4 {
         margin: 5px 0px 0px 0px;
         font-size: 15px;
     }
+    #leaguelogo {
+        max-height: 100px;
+    }
     .product-image {
-        height: 250px;
+        max-height: 250px;
     }
 
     .product-section {
@@ -178,7 +186,8 @@ h4 {
     }
     .section-text {
         /* max-width: 100vh; */
-        text-align: center;
+        flex-direction: column;
+        /* text-align: center; */
         align-items: center;
     }
 
