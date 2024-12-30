@@ -232,4 +232,7 @@ h4 {
     footer p {
         margin-bottom: 10px;
     }
+    .section-img:hover .product-image {
+        transform: none;
+    }
 }
