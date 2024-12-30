@@ -1,5 +1,8 @@
 // creating the header component
 
+let screenWidth = screen.availWidth
+console.log(screenWidth)
+
 const headerDiv = document.createElement('header')
 headerDiv.className = 'main-header'
 headerDiv.id = 'header'
@@ -40,3 +43,20 @@ footerDiv.innerHTML = ` <h2>Get in Touch</h2>
 
 document.body.prepend(headerDiv)
 document.body.append(footerDiv)
+
+// checking the window size
+
+function checkWindow() {
+    screenWidth = screen.availWidth
+    if (screenWidth > 900) {
+        console.log('desktop')
+    }
+    if (screenWidth <= 900) {
+        console.log('mobile')
+    }
+}
+window.onresize = checkWindow
+
+// creating the responsive menu
+const hamMenu = document.createElement('nav')
+hamMenu.className = 'ham-menu'
