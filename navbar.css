@@ -93,3 +93,97 @@ nav ul li.products a {
     max-height: 200px;
     opacity: 1;
 }
+
+#hamMenu {
+    display: none;
+    height: 50px;
+    width: 40px;
+    margin-left: 90%;
+    position: fixed;
+    transition: 0.5s all;
+    z-index: 4;
+}
+
+#hamMenu span {
+    height: 5px;
+    width: 100%;
+    background-color: #0b6bca;
+    border-radius: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.5s ease;
+}
+
+#hamMenu span:nth-child(1) {
+    top: 25%;
+}
+
+#hamMenu span:nth-child(3) {
+    top: 75%;
+}
+
+#hamMenu.active span:nth-child(1) {
+    top: 50%;
+    transform: translate(-50%, 50%) rotate(45deg);
+    transition: 0.5 ease;
+}
+
+#hamMenu.active span:nth-child(2) {
+    opacity: 0;
+}
+#hamMenu.active span:nth-child(3) {
+    top: 50%;
+    transform: translate(-50%, 50%) rotate(-45deg);
+    transition: 0.5 ease;
+}
+
+.off-screen-menu {
+    background-color: #003366;
+    height: 100vh;
+    width: 100%;
+    max-width: 450px;
+    position: fixed;
+    top: 0;
+    right: -450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 3rem;
+    transition: 0.5s ease;
+    z-index: 3;
+}
+
+.off-screen-menu ul {
+    list-style: none;
+    text-decoration: none;
+    margin-right: 2rem;
+    font-size: 2rem;
+}
+
+.off-screen-menu li {
+    text-decoration: none;
+    text-decoration: ;
+    margin-top: 1rem;
+}
+a:link {
+    color: white;
+    text-decoration: none;
+}
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.off-screen-menu.active {
+    right: 0;
+}
+
+@media (width < 900px) {
+    #hamMenu {
+        display: flex;
+    }
+}

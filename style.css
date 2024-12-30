@@ -319,8 +319,9 @@ footer {
 
 /* Responsive styling for mobile screens */
 
-@media (max-width: 900px) {
+/* @media (max-width: 900px) {
     header {
+        display: none;
         flex-direction: column-reverse;
     }
     nav ul {
@@ -333,10 +334,16 @@ footer {
     .headline {
         margin: 1rem 0;
     }
-}
+} */
 
 @media (width < 900px) {
     .banner {
         display: none;
+    }
+    header {
+        display: none;
+    }
+    #intro-container {
+        margin-top: 0px;
     }
 }

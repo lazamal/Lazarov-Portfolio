@@ -156,6 +156,9 @@ h4 {
         /* justify-content: space-around; */
         /* align-items: center;  */
     }
+    .products-container {
+        margin-top: 0px;
+    }
 
     #product-intro {
         display: flex;
