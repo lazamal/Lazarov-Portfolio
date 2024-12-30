@@ -98,7 +98,7 @@ nav ul li.products a {
     display: none;
     height: 50px;
     width: 40px;
-    margin-left: 90%;
+    margin-left: 89%;
     position: fixed;
     transition: 0.5s all;
     z-index: 4;
@@ -166,14 +166,15 @@ nav ul li.products a {
 
 .off-screen-menu li {
     text-decoration: none;
-    text-decoration: ;
+
     margin-top: 1rem;
 }
-a:link {
+
+.off-screen-menu a:link {
     color: white;
     text-decoration: none;
 }
-a:visited {
+.off-screen-menu a:visited {
     color: white;
     text-decoration: none;
 }
