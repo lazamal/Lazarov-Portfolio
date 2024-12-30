@@ -83,11 +83,11 @@ h4 {
 #section3 {
     width: 166%;
     margin-left: -33%;
-    scale: 0.8;
+    scale: 0.01;
     opacity: 0;
     /* border-radius: 1px; */
     animation: becomeBlack linear forwards;
-    animation-timeline: view();
+    animation-timeline: scroll(root);
     animation-range: normal 40%;
 }
 

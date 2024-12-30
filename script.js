@@ -25,7 +25,7 @@ headerDiv.innerHTML = `<nav>
             
             </ul>
         </nav>
-            <div class="logo">My Logo</div> `
+            <div class="logo"></div> `
 
 // creating the footer component
 
