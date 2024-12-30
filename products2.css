@@ -198,7 +198,10 @@ h4 {
     #section2 {
         flex-direction: column;
     }
-
+    #section2 img {
+        max-height: 200px;
+        text-align: center;
+    }
     #section4 img {
         max-height: 200px;
     }
