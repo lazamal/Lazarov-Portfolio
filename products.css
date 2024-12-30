@@ -194,6 +194,9 @@ h4 {
     #section2 {
         flex-direction: column;
     }
+    #section3 {
+        animation-range: normal 50%;
+    }
 
     #section4 img {
         max-height: 200px;
@@ -202,8 +205,13 @@ h4 {
         align-items: center;
         /* max-width: 400px; */
     }
-    #major-text {
+    #section3 .section-text p {
         text-align: center;
+        font-size: 40px;
+    }
+
+    #section3 .section-text h1 {
+        font-size: 20px;
     }
     .KPI-section p {
         font-size: 15px;
