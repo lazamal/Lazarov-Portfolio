@@ -207,7 +207,8 @@ h4 {
     }
     .charts {
         align-items: center;
-        max-width: 450px;
+        height: 200px;
+        width: 400px;
     }
     #major-text {
         text-align: center;

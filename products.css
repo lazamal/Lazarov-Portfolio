@@ -201,8 +201,8 @@ h4 {
     }
     .charts {
         align-items: center;
-        max-width: 400px;
-        /* max-width: 400px; */
+        height: 200px;
+        width: 400px;
     }
     #section3 .section-text p {
         text-align: center;
