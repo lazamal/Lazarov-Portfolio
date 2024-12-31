@@ -108,10 +108,6 @@ h4 {
     font-size: 30px;
 }
 
-.charts {
-    max-height: 500px;
-    min-width: 500px;
-}
 /* #chart1 {
     max-height: 600px;
     min-width: 400px;
@@ -123,10 +119,9 @@ h4 {
 }
 #chart3 {
     max-height: 600px;
-    min-width: 400px;
-} */
+    min-width: 400px; */
 
-.collaboration {
+*/ .collaboration {
     text-align: center;
     margin: auto;
     margin-top: 5%;
@@ -206,6 +201,7 @@ h4 {
     }
     .charts {
         align-items: center;
+        max-width: 400px;
         /* max-width: 400px; */
     }
     #section3 .section-text p {
@@ -221,6 +217,7 @@ h4 {
         margin-bottom: 10px;
         text-align: left;
     }
+
     .collaboration {
         font-size: 10px;
         text-align: left;
