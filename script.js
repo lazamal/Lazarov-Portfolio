@@ -1,8 +1,5 @@
 // creating the header component
 
-let screenWidth = screen.availWidth
-console.log(screenWidth)
-
 const headerDiv = document.createElement('header')
 headerDiv.className = 'main-header'
 headerDiv.id = 'header'
@@ -33,6 +30,7 @@ headerDiv.innerHTML = `<nav>
 // creating the footer component
 
 const footerDiv = document.createElement('footer')
+footerDiv.id = 'footer'
 footerDiv.innerHTML = ` <h2>Get in Touch</h2>
             <p>Let's build something great together.</p>
             <p>Lazamal@gmail.com</p>
@@ -64,20 +62,6 @@ document.body.prepend(offScreenMenu)
 document.body.prepend(headerDiv)
 document.body.prepend(hamMenu)
 document.body.append(footerDiv)
-window.onload = checkWindow
-window.onresize = checkWindow
-
-// checking the window size
-
-function checkWindow() {
-    screenWidth = screen.width
-    if (screenWidth > 900) {
-        console.log('desktop')
-    }
-    if (screenWidth <= 900) {
-        console.log('mobile')
-    }
-}
 
 // clicking the mobile navbar
 hamMenu.addEventListener('click', function () {

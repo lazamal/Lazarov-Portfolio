@@ -63,10 +63,6 @@ h4 {
     /* position: relative; */
 }
 
-.section-img:hover .product-image {
-    transform: scale(1.25);
-}
-
 #section2 .section-text {
     margin-left: 10%;
 }

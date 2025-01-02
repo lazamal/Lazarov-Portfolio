@@ -54,10 +54,6 @@ h4 {
     /* position: relative; */
 }
 
-.section-img:hover .product-image {
-    transform: scale(1.25);
-}
-
 #section2 {
     flex-direction: row-reverse;
 }
@@ -72,7 +68,7 @@ h4 {
     color: rgba(255, 175, 75, 0.8);
 }
 
-#section3 .section-text p {
+#section3 .section-text span {
     font-size: 90px;
     font-weight: bold;
     margin: 5px;
@@ -83,21 +79,24 @@ h4 {
 #section3 {
     width: 166%;
     margin-left: -33%;
-    scale: 0.01;
+    scale: 0.2;
     opacity: 0;
     /* border-radius: 1px; */
     animation: becomeBlack linear forwards;
     animation-timeline: scroll(root);
-    animation-range: normal 40%;
+    animation-range: normal 35%;
 }
 
 @keyframes becomeBlack {
     to {
-        background: rgba(0, 0, 0, 0.9);
+        background: rgba(0, 0, 0, 1);
         scale: 1;
         opacity: 1;
         border-radius: 10px;
     }
+}
+#section4 {
+    flex-direction: column;
 }
 
 #section4 .section-text {
