@@ -35,7 +35,7 @@ headerDiv.innerHTML = `<nav>
 const footerDiv = document.createElement('footer')
 footerDiv.innerHTML = ` <h2>Get in Touch</h2>
             <p>Let's build something great together.</p>
-            <a href="contact.html" class="btn" style="border:none; text-decoration:none;">Email Me</a>
+            <p>Lazamal@gmail.com</p>
             <a href="https://www.linkedin.com/in/dor-lazarov-65601287/" style="border:none; text-decoration:none;"
                 class="btn">LinkedIn</a>`
 
