@@ -8,6 +8,7 @@ h1 {
 
 h2 {
     font-size: 35px;
+    line-height: normal;
 }
 
 h4 {
@@ -85,7 +86,7 @@ h4 {
     /* border-radius: 1px; */
     animation: becomeBlack linear forwards;
     animation-timeline: scroll(root);
-    animation-range: normal 25%;
+    animation-range: normal 40%;
 }
 
 @keyframes becomeBlack {
