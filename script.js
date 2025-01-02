@@ -6,9 +6,8 @@ headerDiv.id = 'header'
 headerDiv.innerHTML = `<nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="#about">About</a></li>
                 <div id="products-container">
-               <button id="products"><a href="" >Products</a></button>
+               <button id="products">Projects</button>
                         <div class="dropdown-content">
                             <a href="Products1.html">
                                 Hachaluz League

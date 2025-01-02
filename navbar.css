@@ -155,6 +155,7 @@ nav ul li.products a {
     font-size: 3rem;
     transition: 0.5s ease;
     z-index: 3;
+    line-height: 3rem;
 }
 
 .off-screen-menu ul {

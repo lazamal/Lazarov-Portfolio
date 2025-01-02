@@ -15,6 +15,7 @@ body {
         rgba(255, 175, 75, 0.8),
         rgba(75, 192, 192, 0.8)
     ); */
+    line-height: 1.6rem;
 }
 p {
     color: #393e46;
@@ -22,6 +23,9 @@ p {
 
 h2 {
     color: #393e46;
+}
+h4 {
+    margin-bottom: 1rem;
 }
 
 .subtext {
@@ -187,7 +191,8 @@ nav ul li.products a {
     text-shadow: 2px 2px 5px rgba(0, 0, 0);
 }
 
-.banner-subtitle {
+.banner-subtitle p {
+    color: #eeeeee;
     font-weight: bold;
     font-size: 20px;
     text-shadow: 2px 2px 5px rgba(0, 0, 0);
@@ -227,7 +232,7 @@ nav ul li.products a {
     font-family: 'Poppins', sans-serif;
     text-align: center;
     padding: 50px 20px;
-    background: 
+
     /* linear-gradient(
         135deg,
         rgba(161, 177, 239, 0.8),

@@ -66,6 +66,7 @@ h4 {
     text-align: center;
     margin: auto;
     color: rgba(255, 175, 75, 0.8);
+    line-height: normal;
 }
 
 #section3 .section-text span {
@@ -84,7 +85,7 @@ h4 {
     /* border-radius: 1px; */
     animation: becomeBlack linear forwards;
     animation-timeline: scroll(root);
-    animation-range: normal 35%;
+    animation-range: normal 25%;
 }
 
 @keyframes becomeBlack {

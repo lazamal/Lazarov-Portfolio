@@ -109,7 +109,9 @@ h4 {
         opacity: 1;
     }
 }
-
+#section4 {
+    flex-direction: column;
+}
 #section4 .section-text {
     margin-right: 5%;
 }
