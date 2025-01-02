@@ -52,11 +52,6 @@
     margin-top: 10px;
     width: 100px;
 }
-#contact-form button:hover {
-    scale: 1.1;
-    background-color: #1abc9c;
-    color: black;
-}
 
 textarea {
     width: 100%;
